@@ -1,0 +1,328 @@
+@import 'variable.scss';
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    // <!-- carousel start -->
+
+    .carousel {
+        .round-nav {
+            bottom: 5px !important;
+        }
+
+        .carousel-content2 {
+            padding-top: 39px;
+            padding-bottom: 40px;
+
+
+            .big {
+                line-height: 28px;
+                font-size: 24px;
+            }
+
+            .name {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    // <!-- carousel end -->
+
+    // <!-- contact start -->
+    .contact {
+
+        .contact-content {
+
+            h3 {
+                padding-top: 40px;
+            }
+        }
+    }
+
+    // <!-- contact end -->
+    // <!-- download start -->
+    .download {
+        .download-content {
+            h1 {
+                font-size: 26px;
+
+            }
+
+            button {
+                padding: 16px 42px;
+
+            }
+        }
+    }
+
+    // <!-- download end -->
+
+    // <!-- carousel start -->
+
+    .carousel {
+        .carousel-content2 {
+            text-align: center;
+
+            .big {
+                font-size: 31px;
+            }
+        }
+    }
+
+    // <!-- carousel end -->
+
+    // team start
+    .team {
+        text-align: center;
+
+        .team-content {
+            img {
+                margin-top: 30px;
+            }
+
+            h2 {
+                font-size: 21px;
+            }
+        }
+    }
+
+    // team end
+
+    // header start
+
+    // nav start
+    nav {
+        padding: 0 !important;
+
+        ul {
+            margin-top: 20px;
+
+            li {
+                padding: 0;
+                text-align: center;
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    // nav end
+
+    // banner start
+    .banner {
+        .banner-content {
+            h1 {
+                font-size: 35px !important;
+            }
+
+            p {
+                font-size: 20px !important;
+
+            }
+
+            button {
+                padding: 15px 30px !important;
+            }
+        }
+    }
+
+    // banner end
+
+    // header end
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+    // <!-- contact start -->
+    .contact {
+
+        .contact-content {
+
+            h3 {
+                padding-top: 40px;
+            }
+        }
+    }
+
+    // <!-- contact end -->
+
+
+    // <!-- download start -->
+    .download {
+        .download-content {
+
+            button {
+                padding: 18px 62px;
+
+            }
+        }
+    }
+
+    // <!-- download end -->
+
+    // <!-- carousel start -->
+
+    .carousel {
+        .carousel-content2 {
+            text-align: center;
+        }
+    }
+
+    // <!-- carousel end -->
+
+    // team start
+    .team {
+        text-align: center;
+
+        .team-content {
+            h2 {
+                font-size: 21px;
+            }
+
+            img {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    // team end
+
+
+    // header start
+
+    // nav start
+    nav {
+        ul {
+            margin-top: 20px;
+
+            li {
+                padding: 0;
+                text-align: center;
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    // nav end
+
+    // banner start
+    .banner {
+        .banner-content {
+            h1 {
+                font-size: 46px !important;
+            }
+
+            p {
+                font-size: 21px !important;
+            }
+
+            button {
+                padding: 15px 30px !important;
+            }
+        }
+    }
+
+    // banner end
+
+    // header end
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    // <!-- carousel start -->
+
+    .carousel {
+        .round-nav {
+            bottom: 5px;
+        }
+
+        .carousel-content2 {
+            padding-top: 29px;
+            padding-bottom: 30px;
+
+
+            .big {
+                line-height: 28px;
+                font-size: 24px;
+            }
+
+            .name {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    // <!-- carousel end -->
+
+
+    // team start
+    .team {
+
+        .team-content {
+            h2 {
+                font-size: 21px;
+            }
+        }
+    }
+
+    // team end
+
+    // header start
+
+    // nav start
+    nav {
+        ul {
+            margin-top: 20px;
+
+            li {
+                padding: 0;
+                text-align: center;
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    // nav end
+
+    // banner start
+    .banner {
+        .banner-content {
+            h1 {
+                font-size: 57px !important;
+            }
+        }
+    }
+
+    // banner end
+
+    // header end
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    // <!-- carousel start -->
+
+    .carousel {
+        .carousel-content2 {
+            padding-top: 39px;
+            padding-bottom: 60px;
+
+            .big {
+                line-height: 35px;
+                font-size: 32px;
+            }
+
+            .name {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    // <!-- carousel end -->
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
